@@ -1,0 +1,78 @@
+{
+    "themes": {
+      "general": [
+        "I love the smell of fresh cut grass.",
+        "The sunsets here are always breathtaking.",
+        "I can't believe how fast time flies.",
+        "Life is too short to be unhappy.",
+        "Every day is a new adventure.",
+        "Laughter is the best medicine.",
+        "Life is a journey, not a destination.",
+        "Dreams are meant to be pursued.",
+        "The world is full of beauty.",
+        "The best things in life are free."
+      ],
+      "food": [
+        "This pizza is amazing.",
+        "I can't resist chocolate cake.",
+        "Sushi is my favorite food.",
+        "I love trying new restaurants.",
+        "Freshly baked bread is the best.",
+        "I'm a coffee addict.",
+        "There's nothing like a good burger.",
+        "I could eat tacos every day.",
+        "Ice cream is my weakness.",
+        "I love cooking for my friends and family."
+      ],
+      "travel": [
+        "I'm so excited to explore this new city.",
+        "The beach is my happy place.",
+        "I can't wait to see the Eiffel Tower.",
+        "I love immersing myself in different cultures.",
+        "Traveling is the best way to broaden your horizons.",
+        "I want to hike to the top of that mountain.",
+        "I'm always up for an adventure.",
+        "I can't wait to see what's around the next corner.",
+        "I'm so grateful for the opportunity to travel.",
+        "There's nothing like the feeling of being on the road."
+      ]
+    },
+    "tones": {
+      "neutral": [
+        "It's a beautiful day outside.",
+        "I'm feeling pretty good today.",
+        "I'm looking forward to the weekend.",
+        "I have a lot of work to do.",
+        "I'm not really in the mood for company.",
+        "I need to get some exercise.",
+        "I'm trying to cut back on sugar.",
+        "I'm not sure what to do next.",
+        "I need to make some changes in my life.",
+        "I'm feeling a little overwhelmed."
+      ],
+      "positive": [
+        "Today is going to be a great day.",
+        "I feel happy and grateful.",
+        "I'm excited to see what the future holds.",
+        "I'm surrounded by wonderful people.",
+        "I'm so lucky to have this opportunity.",
+        "I'm proud of myself for making progress.",
+        "I'm grateful for everything I have.",
+        "I'm confident that things will work out.",
+        "I'm looking forward to the challenges ahead.",
+        "I'm filled with hope and optimism."
+      ],
+      "negative": [
+        "I'm feeling down today.",
+        "I'm struggling to stay positive.",
+        "I'm disappointed with how things turned out.",
+        "I'm worried about the future.",
+        "I'm feeling stressed and overwhelmed.",
+        "I'm frustrated with my lack of progress.",
+        "I'm angry about what happened.",
+        "I'm having a hard time coping with everything.",
+        "I'm feeling lonely and isolated.",
+        "I'm scared about what might happen."
+      ]
+    }
+  }
