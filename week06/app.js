@@ -1,4 +1,6 @@
+//Load the content from HTML to javascript
 document.addEventListener('DOMContentLoaded', function(){
+
 // Get HTML elements
 const themeSelect = document.getElementById('theme-select');
 const toneSelect = document.getElementById('tone-select');
@@ -7,15 +9,6 @@ const generateBtn = document.getElementById('generate-btn');
 const sentence = document.getElementById('sentence');
 const saveBtn = document.getElementById('save-btn');
 const favoritesList = document.getElementById('favorites-list');
-
-
-// Get all elements with the "options" class
-//const optionsElements = document.querySelectorAll('.options select, .options input');
-
-// Add event listeners to all elements in the "options" class
-//optionsElements.forEach((element) => {
-//  element.addEventListener('change', generateSentence);
-//});
 
 
 // Add event listeners to the generate and save buttons
@@ -75,6 +68,6 @@ function saveFavorite() {
 }
 
 // Fetch data and initialize the app
-
 fetchData();
+
 });

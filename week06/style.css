@@ -8,7 +8,7 @@ html{
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 21px;
-	border: solid black;
+	border: solid rgba(0, 0, 0, 0.507);
 	background-color: #555555bb;
 }
 
@@ -19,8 +19,8 @@ h1 {
 	border: 1px solid  rgba(0, 47, 255, 0.185);
 	background-color: rgba(0, 47, 255, 0.479);
 	width: 100%;
-	border-radius: 15px;
-	
+	border-radius: 55px;
+	color: white;
 }
 
 .options {
@@ -85,7 +85,6 @@ select {
 
 .favorites {
 	margin-top: 40px;
-	
 }
 
 h2 {

@@ -8,6 +8,13 @@ const sentence = document.getElementById('sentence');
 const saveBtn = document.getElementById('save-btn');
 const favoritesList = document.getElementById('favorites-list');
 
+// Get all elements with the "options" class
+//const optionsElements = document.querySelectorAll('.options select, .options input');
+
+// Add event listeners to all elements in the "options" class
+//optionsElements.forEach((element) => {
+//  element.addEventListener('change', generateSentence);
+//});
 // Add event listeners to the generate and save buttons
 generateBtn.addEventListener('click', generateSentence);
 saveBtn.addEventListener('click', saveFavorite);
