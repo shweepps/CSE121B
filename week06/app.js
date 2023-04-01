@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function(){
 // Get HTML elements
 const themeSelect = document.getElementById('theme-select');
 const toneSelect = document.getElementById('tone-select');
@@ -76,3 +77,4 @@ function saveFavorite() {
 // Fetch data and initialize the app
 
 fetchData();
+});
