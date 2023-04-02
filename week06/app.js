@@ -61,10 +61,16 @@ function generateSentence() {
 
 function saveFavorite() {
   const sentenceText = sentence.textContent;
-  const favorite = document.createElement('li');
-  favorite.textContent = sentenceText;
-  favoritesList.appendChild(favorite);
-  favorites.push(sentenceText);
+  if (!sentenceText) {
+    alert("Cannot save an empty sentence.");
+  } else if (favorites.includes(sentenceText)) {
+    alert("You have already saved this one.");
+  } else {
+    const favorite = document.createElement('li');
+    favorite.textContent = sentenceText;
+    favoritesList.appendChild(favorite);
+    favorites.push(sentenceText);
+  }
 }
 
 // Fetch data and initialize the app
